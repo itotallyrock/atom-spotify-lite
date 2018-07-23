@@ -1,0 +1,27 @@
+{
+  "name": "spotify-lite",
+  "main": "./lib/spotify-lite",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/spotify-lite",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusbar"
+      }
+    },
+    "spotify-status": {
+      "versions": {
+        "^0.1.0": "consumeSpotifyPlayer"
+      }
+    }
+  }
+}
