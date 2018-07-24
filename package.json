@@ -1,11 +1,13 @@
 {
   "name": "spotify-lite",
   "main": "./lib/spotify-lite",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Atom Spotify status bar interface",
   "keywords": [
+    "spotify",
+    "status-bar"
   ],
-  "repository": "https://github.com/atom/spotify-lite",
+  "repository": "https://github.com/itotallyrock/atom-spotify-lite",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
